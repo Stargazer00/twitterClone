@@ -7,6 +7,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
+# Use bcrypt
+gem 'bcrypt'
 # Use Bootstrap for CSS
 gem 'bootstrap-sass' 
 # Use Puma as the app server
