@@ -75,7 +75,7 @@ Rails.application.configure do
     :password       => ENV['SENDGRID_PASSWORD'],
     :domain         => 'heroku.com',
     :enable_starttls_auto => true
-  
+  }
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners.
